@@ -4,7 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 gem 'semantic-ui-sass'
-gem 'jquery-rails'
+
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
